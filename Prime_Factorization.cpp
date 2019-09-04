@@ -6,7 +6,7 @@ int primefactorization(int a ){
         cout << 2 << endl;
         a/=2;
     }
-    // cout << a << endl;
+    
     for(int i=3;i<=sqrt(a);i+=2){
         while(a%i==0){
             cout << i << endl;
