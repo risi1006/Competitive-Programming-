@@ -17,19 +17,7 @@ void eulerphi()
         }
     }
 }
-// ll LcmSum(int m)
-// {
-//     eulerphi();
-//     ll ans[n+1];
-//     for(int i=1;i<=n;i++){
-//         for(int j=i;j<=n;j+=i){
-//             ans[j]+=(i*phi[i]);
-//         }
-//     }
-//     ll answer= ans[m]; answer=(answer+1)*m;
-//     answer/=2;
-//     return answer;
-// }
+
 int main()
 {
     eulerphi(10);
