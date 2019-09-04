@@ -61,6 +61,8 @@ int multiply(int x, int res[], int res_size)
 // Driver program
 int main()
 {
-    factorial(100);
+    int n; cin >> n;
+    factorial(n);
+//     factorial(100);
     return 0;
 }
