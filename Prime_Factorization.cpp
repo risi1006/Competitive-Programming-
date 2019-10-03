@@ -1,3 +1,4 @@
+#prime fact
 #include<bits/stdc++.h>
 using namespace std;
 int primefactorization(int a ){
