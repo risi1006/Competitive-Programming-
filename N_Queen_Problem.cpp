@@ -50,3 +50,4 @@ int main()
     int n; cin >> n;
     placeNQueens(n);
 }
+#
